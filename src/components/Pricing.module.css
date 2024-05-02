@@ -1,0 +1,488 @@
+.articles {
+  position: relative;
+  line-height: 150%;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 74px;
+}
+.articlesWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-2xs) 0 0;
+}
+.destinations {
+  position: relative;
+  font-size: var(--body-text-size);
+  line-height: 150%;
+  font-weight: 500;
+  font-family: var(--small-text);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  min-width: 120px;
+}
+.destinationsWrapper,
+.frameContainer,
+.frameDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.frameContainer,
+.frameDiv {
+  background-color: var(--color-rosybrown);
+}
+.frameContainer {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs);
+  z-index: 1;
+}
+.frameWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) var(--padding-3xs) 0 0;
+}
+.hotels {
+  position: relative;
+  line-height: 150%;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 62px;
+  z-index: 1;
+}
+.hotelsWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-2xs) var(--padding-lg) 0 0;
+}
+.cruises {
+  position: relative;
+  line-height: 150%;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 73px;
+}
+.cruisesWrapper {
+  width: 104px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-2xs) var(--padding-xl) 0 0;
+  box-sizing: border-box;
+}
+.signUp {
+  position: relative;
+  font-size: var(--small-text-size);
+  line-height: 150%;
+  font-weight: 500;
+  font-family: var(--small-text);
+  color: var(--color-rosybrown);
+  text-align: left;
+  display: inline-block;
+  min-width: 60px;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-sm) var(--padding-5xl);
+  background-color: var(--color-black);
+  box-shadow: var(--button-shadow);
+  border-radius: var(--br-5xs);
+  flex-direction: row;
+  white-space: nowrap;
+}
+.button:hover {
+  background-color: var(--color-darkslategray);
+}
+.button,
+.frameParent,
+.navigation,
+.navigationInner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent {
+  flex-direction: row;
+  gap: var(--gap-mid);
+}
+.navigation,
+.navigationInner {
+  flex-direction: column;
+  padding: var(--padding-10xl) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.navigation {
+  align-self: stretch;
+  background-color: var(--color-rosybrown);
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: var(--padding-8xl) var(--padding-61xl) var(--padding-8xl)
+    var(--padding-3xs);
+  gap: var(--gap-xl);
+}
+.pricing1 {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.02em;
+  font-weight: 700;
+  font-family: inherit;
+}
+.longLastingConnectionsThriv {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--subheading-size);
+  line-height: 150%;
+  color: var(--color-gray);
+}
+.valueHolder {
+  width: 912.8px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  max-width: 100%;
+}
+.logicGate {
+  width: 1119px;
+  padding: 0 var(--padding-xl) var(--padding-4xs);
+  text-align: center;
+}
+.conditionChecker,
+.logicGate,
+.pricingGrid {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.pricingGrid {
+  width: 842px;
+  flex-wrap: wrap;
+  padding: 0 var(--padding-11xs) 0 0;
+  gap: 32px 30px;
+}
+.conditionChecker {
+  width: 1102px;
+  padding: 0 var(--padding-xl);
+  font-size: var(--heading-size);
+}
+.frequentlyAskedQuestions {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: var(--heading-size);
+  line-height: 110%;
+  font-weight: 600;
+  font-family: inherit;
+}
+.canUsersSet {
+  align-self: stretch;
+  position: relative;
+  line-height: 150%;
+}
+.wingsProvidesOptions {
+  width: 956px;
+  position: relative;
+  font-size: var(--body-text-size);
+  line-height: 150%;
+  font-weight: 500;
+  color: var(--color-gray);
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+}
+.dataCompressor,
+.dataExpander {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.dataExpander {
+  align-self: stretch;
+  gap: var(--gap-17xl);
+}
+.dataCompressor {
+  flex: 1;
+  padding: var(--padding-9xs) 0 0;
+  box-sizing: border-box;
+  min-width: 785px;
+}
+.dataSplitter {
+  margin: 0;
+  width: 27px;
+  position: relative;
+  font-size: var(--heading-size);
+  line-height: 110%;
+  font-weight: 600;
+  font-family: inherit;
+  color: var(--color-gray);
+  display: inline-block;
+}
+.dataFilter {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  max-width: 100%;
+}
+.whatIsWings {
+  align-self: stretch;
+  position: relative;
+  line-height: 150%;
+}
+.dataStream {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0 0;
+  box-sizing: border-box;
+  min-width: 785px;
+  max-width: 100%;
+}
+.dataPool {
+  margin: 0;
+  width: 27px;
+  position: relative;
+  font-size: var(--heading-size);
+  line-height: 110%;
+  font-weight: 600;
+  font-family: inherit;
+  color: var(--color-gray);
+  display: inline-block;
+}
+.dataSink {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  max-width: 100%;
+}
+.doesWingsProvide {
+  align-self: stretch;
+  position: relative;
+  line-height: 150%;
+}
+.doesWingsProvidePersonalizeWrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0 0;
+  box-sizing: border-box;
+  min-width: 785px;
+  max-width: 100%;
+}
+.h1 {
+  margin: 0;
+  width: 27px;
+  position: relative;
+  font-size: var(--heading-size);
+  line-height: 110%;
+  font-weight: 600;
+  font-family: inherit;
+  color: var(--color-gray);
+  display: inline-block;
+}
+.dataSampler,
+.dataSink1,
+.logicGateParent {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.dataSink1 {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: var(--gap-5xl);
+}
+.dataSampler,
+.logicGateParent {
+  flex-direction: column;
+}
+.dataSampler {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: var(--gap-13xl);
+  font-size: var(--subheading-size);
+}
+.logicGateParent {
+  width: 1259px;
+  align-items: flex-end;
+  gap: var(--gap-73xl);
+}
+.dataGatherer,
+.pricing {
+  flex-shrink: 0;
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.dataGatherer {
+  width: 1421px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-132xl);
+  font-size: var(--title-size);
+}
+.pricing {
+  align-self: stretch;
+  height: 1773px;
+  background-color: var(--color-gainsboro-400);
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs) var(--padding-332xl) 0;
+  gap: var(--gap-61xl);
+  text-align: left;
+  font-size: var(--body-text-size);
+  color: var(--color-black);
+  font-family: var(--small-text);
+}
+@media screen and (max-width: 2025px) {
+  .frameParent,
+  .navigation {
+    flex-wrap: wrap;
+  }
+  .navigation {
+    padding-right: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+  .pricing1 {
+    font-size: var(--font-size-32xl);
+  }
+  .frequentlyAskedQuestions {
+    font-size: var(--font-size-13xl);
+    line-height: 35px;
+  }
+  .dataExpander {
+    gap: var(--gap-lg);
+  }
+  .dataCompressor {
+    min-width: 100%;
+  }
+  .dataSplitter {
+    font-size: var(--font-size-13xl);
+    line-height: 35px;
+  }
+  .dataFilter {
+    flex-wrap: wrap;
+  }
+  .dataStream {
+    min-width: 100%;
+  }
+  .dataPool {
+    font-size: var(--font-size-13xl);
+    line-height: 35px;
+  }
+  .dataSink {
+    flex-wrap: wrap;
+  }
+  .doesWingsProvidePersonalizeWrapper {
+    min-width: 100%;
+  }
+  .h1 {
+    font-size: var(--font-size-13xl);
+    line-height: 35px;
+  }
+  .dataSink1 {
+    flex-wrap: wrap;
+  }
+  .dataSampler {
+    gap: var(--gap-base);
+  }
+  .logicGateParent {
+    gap: var(--gap-27xl);
+  }
+  .dataGatherer,
+  .pricing {
+    padding-bottom: var(--padding-45xl);
+    box-sizing: border-box;
+  }
+  .pricing {
+    height: auto;
+    gap: var(--gap-21xl);
+    padding-bottom: var(--padding-77xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .articles,
+  .cruises,
+  .destinations,
+  .hotels {
+    font-size: var(--small-text-size);
+    line-height: 24px;
+  }
+  .pricing1 {
+    font-size: var(--font-size-19xl);
+  }
+  .longLastingConnectionsThriv {
+    font-size: var(--font-size-lgi);
+    line-height: 29px;
+  }
+  .frequentlyAskedQuestions {
+    font-size: var(--subheading-size);
+    line-height: 26px;
+  }
+  .canUsersSet {
+    font-size: var(--font-size-lgi);
+    line-height: 29px;
+  }
+  .wingsProvidesOptions {
+    font-size: var(--small-text-size);
+    line-height: 24px;
+  }
+  .dataSplitter {
+    font-size: var(--subheading-size);
+    line-height: 26px;
+  }
+  .whatIsWings {
+    font-size: var(--font-size-lgi);
+    line-height: 29px;
+  }
+  .dataPool {
+    font-size: var(--subheading-size);
+    line-height: 26px;
+  }
+  .doesWingsProvide {
+    font-size: var(--font-size-lgi);
+    line-height: 29px;
+  }
+  .h1 {
+    font-size: var(--subheading-size);
+    line-height: 26px;
+  }
+  .logicGateParent {
+    gap: var(--gap-4xl);
+  }
+  .pricing {
+    gap: var(--gap-xl);
+  }
+}

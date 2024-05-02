@@ -1,0 +1,728 @@
+.articles {
+  position: relative;
+  line-height: 150%;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 74px;
+}
+.articlesWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) 0 0;
+}
+.destinations {
+  position: relative;
+  font-size: var(--body-text-size);
+  line-height: 150%;
+  font-weight: 500;
+  font-family: var(--small-text);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  min-width: 120px;
+}
+.connectedComponents,
+.connectedComponentsWrapper,
+.frameContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.connectedComponentsWrapper,
+.frameContainer {
+  background-color: var(--color-rosybrown);
+}
+.frameContainer {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs);
+  z-index: 1;
+}
+.frameWrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-3xs) 0 0;
+}
+.hotels {
+  position: relative;
+  line-height: 150%;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 62px;
+  z-index: 1;
+}
+.hotelsWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-lg) 0 0;
+}
+.cruises {
+  position: relative;
+  line-height: 150%;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 73px;
+}
+.cruisesWrapper {
+  flex-direction: column;
+  padding: var(--padding-3xs) 0 0;
+}
+.cruisesWrapper,
+.depthLevel,
+.frameParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-mid);
+}
+.depthLevel {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.signUp {
+  position: relative;
+  font-size: var(--small-text-size);
+  line-height: 150%;
+  font-weight: 500;
+  font-family: var(--small-text);
+  color: var(--color-rosybrown);
+  text-align: left;
+  display: inline-block;
+  min-width: 60px;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-sm) var(--padding-5xl);
+  background-color: var(--color-black);
+  box-shadow: var(--button-shadow);
+  border-radius: var(--br-5xs);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+.button:hover {
+  background-color: var(--color-darkslategray);
+}
+.branchingFactor,
+.navigation,
+.subtree {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.branchingFactor {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-29xl);
+}
+.navigation,
+.subtree {
+  box-sizing: border-box;
+}
+.subtree {
+  width: 584px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-10xl) 0 0;
+  font-size: var(--body-text-size);
+}
+.navigation {
+  align-self: stretch;
+  background-color: var(--color-rosybrown);
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: var(--padding-8xl) var(--padding-61xl) var(--padding-8xl)
+    var(--padding-3xs);
+  gap: var(--gap-xl);
+  font-size: var(--font-size-13xl);
+}
+.goBoldly,
+.loveInspiringTravel {
+  align-self: stretch;
+  position: relative;
+}
+.goBoldly {
+  margin: 0;
+  font-size: inherit;
+  letter-spacing: -0.02em;
+  font-weight: 700;
+  font-family: inherit;
+}
+.loveInspiringTravel {
+  font-size: var(--subheading-size);
+  line-height: 150%;
+  color: var(--color-gray);
+}
+.treeDiameter,
+.treeShape {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.treeShape {
+  width: 912.2px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.treeDiameter {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-43xl);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--title-size);
+}
+.images1Icon {
+  height: 401px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  min-width: 448px;
+}
+.aVLTree,
+.binarySearchTree {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 100%;
+}
+.aVLTree {
+  width: 1377.3px;
+  gap: var(--gap-109xl-3);
+}
+.binarySearchTree {
+  align-self: stretch;
+  padding: 0 var(--padding-10xl) var(--padding-xs) var(--padding-xl);
+  box-sizing: border-box;
+}
+.marqueeTravelParis800x4501Icon {
+  width: 689px;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+  max-width: 100%;
+}
+.connectedComponentsLabeling,
+.forestSegmentation {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.connectedComponentsLabeling {
+  width: 1384.3px;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.forestSegmentation {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-6xs) var(--padding-3xl);
+  box-sizing: border-box;
+}
+.articles1 {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  line-height: 110%;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.biconnectedComponents {
+  width: 635px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-8xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.inputContainer {
+  margin: 0;
+  width: 27px;
+  position: relative;
+  font-size: inherit;
+  line-height: 110%;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+}
+.palau {
+  align-self: stretch;
+  position: relative;
+  line-height: 150%;
+}
+.conditionBranch,
+.outputCollector {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.outputCollector {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-6xs) 0 0;
+  box-sizing: border-box;
+  min-width: 335px;
+  font-size: var(--subheading-size);
+  color: var(--color-black);
+}
+.conditionBranch {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-8xs-3);
+}
+.terrificReasonsTo {
+  flex: 1;
+  position: relative;
+  line-height: 150%;
+  font-weight: 500;
+  color: inherit;
+  display: inline-block;
+  text-decoration: none;
+  max-width: 100%;
+}
+.dataAggregator,
+.valueComparator {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.valueComparator {
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-12xl-3);
+  box-sizing: border-box;
+  font-size: var(--body-text-size);
+}
+.dataAggregator {
+  flex-direction: column;
+  gap: var(--gap-6xs);
+}
+.h1,
+.patagonia {
+  position: relative;
+}
+.h1 {
+  margin: 0;
+  width: 27px;
+  font-size: inherit;
+  line-height: 110%;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+}
+.patagonia {
+  align-self: stretch;
+  line-height: 150%;
+}
+.dataProcessor {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-5xs) 0 0;
+  box-sizing: border-box;
+  min-width: 335px;
+  font-size: var(--subheading-size);
+  color: var(--color-black);
+}
+.dataAggregatorParent,
+.dataProcessor,
+.functionCallTree,
+.graphRepresentation {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.functionCallTree {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-8xs-3);
+}
+.dataAggregatorParent,
+.graphRepresentation {
+  flex-direction: column;
+}
+.dataAggregatorParent {
+  align-self: stretch;
+  gap: var(--gap-21xl);
+}
+.graphRepresentation {
+  width: 546.3px;
+  padding: var(--padding-base) 0 0;
+  box-sizing: border-box;
+  min-width: 546.3000000000002px;
+}
+.h11,
+.sydney {
+  position: relative;
+}
+.h11 {
+  margin: 0;
+  width: 27px;
+  font-size: inherit;
+  line-height: 110%;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+}
+.sydney {
+  align-self: stretch;
+  line-height: 150%;
+}
+.parent,
+.sydneyWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.sydneyWrapper {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-5xs) 0 0;
+  box-sizing: border-box;
+  min-width: 333px;
+  font-size: var(--subheading-size);
+  color: var(--color-black);
+}
+.parent {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-4xs-6);
+}
+.jonahsRestaurant {
+  flex: 1;
+  position: relative;
+  line-height: 150%;
+  font-weight: 500;
+  display: inline-block;
+  max-width: 100%;
+}
+.frameDiv,
+.jonahsRestaurantBoutiqueWrapper {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.jonahsRestaurantBoutiqueWrapper {
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-16xl-6);
+  box-sizing: border-box;
+  font-size: var(--body-text-size);
+}
+.frameDiv {
+  flex-direction: column;
+  gap: var(--gap-5xs);
+}
+.h12,
+.india {
+  position: relative;
+}
+.h12 {
+  margin: 0;
+  width: 27px;
+  font-size: inherit;
+  line-height: 110%;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+}
+.india {
+  align-self: stretch;
+  line-height: 150%;
+}
+.group,
+.indiaWrapper {
+  justify-content: flex-start;
+}
+.indiaWrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-6xs) 0 0;
+  box-sizing: border-box;
+  min-width: 333px;
+  max-width: 100%;
+  font-size: var(--subheading-size);
+  color: var(--color-black);
+}
+.group {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-4xs-6);
+}
+.connectivity,
+.frameGroup,
+.group {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameGroup {
+  width: 548.6px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-22xl);
+  min-width: 548.6000000000004px;
+}
+.connectivity {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.discoverPatagoniaWith,
+.theVtGuide {
+  position: relative;
+  line-height: 150%;
+  font-weight: 500;
+}
+.discoverPatagoniaWith {
+  width: 515px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.theVtGuide {
+  align-self: stretch;
+}
+.theVtGuideToNorthernIndiWrapper {
+  width: 513px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mini) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.discoverPatagoniaWithAbercrParent {
+  width: 1318.3px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+  margin-top: -8px;
+  font-size: var(--body-text-size);
+}
+.cutVertices {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  max-width: 100%;
+  color: var(--color-gray);
+}
+.graphColoring {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-4xs);
+}
+.graphColoring,
+.graphTraversal,
+.landingPage {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.graphTraversal {
+  width: 1499.6px;
+  flex-direction: row;
+  padding: 0 var(--padding-56xl) var(--padding-41xl);
+  box-sizing: border-box;
+}
+.landingPage {
+  align-self: stretch;
+  background-color: var(--color-gainsboro-400);
+  overflow: hidden;
+  flex-direction: column;
+  gap: var(--gap-101xl);
+  text-align: left;
+  font-size: var(--heading-size);
+  color: var(--color-black);
+  font-family: var(--small-text);
+}
+@media screen and (max-width: 2025px) {
+  .frameParent {
+    display: none;
+  }
+  .branchingFactor {
+    gap: var(--gap-5xl);
+  }
+  .navigation {
+    flex-wrap: wrap;
+    padding-right: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+  .goBoldly {
+    font-size: var(--font-size-32xl);
+  }
+  .images1Icon {
+    min-width: 100%;
+  }
+  .aVLTree {
+    flex-wrap: wrap;
+    gap: var(--gap-13xl);
+  }
+  .marqueeTravelParis800x4501Icon {
+    flex: 1;
+  }
+  .connectedComponentsLabeling {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .articles1,
+  .inputContainer {
+    font-size: var(--font-size-13xl);
+    line-height: 35px;
+  }
+  .conditionBranch {
+    flex-wrap: wrap;
+  }
+  .h1 {
+    font-size: var(--font-size-13xl);
+    line-height: 35px;
+  }
+  .functionCallTree {
+    flex-wrap: wrap;
+  }
+  .dataAggregatorParent {
+    gap: var(--gap-xl);
+  }
+  .graphRepresentation {
+    flex: 1;
+    min-width: 100%;
+  }
+  .h11 {
+    font-size: var(--font-size-13xl);
+    line-height: 35px;
+  }
+  .parent {
+    flex-wrap: wrap;
+  }
+  .h12 {
+    font-size: var(--font-size-13xl);
+    line-height: 35px;
+  }
+  .group {
+    flex-wrap: wrap;
+  }
+  .frameGroup {
+    flex: 1;
+    gap: var(--gap-xl);
+    min-width: 100%;
+  }
+  .connectivity,
+  .discoverPatagoniaWithAbercrParent {
+    flex-wrap: wrap;
+  }
+  .graphTraversal {
+    padding-left: var(--padding-18xl);
+    padding-right: var(--padding-18xl);
+    box-sizing: border-box;
+  }
+  .landingPage {
+    gap: var(--gap-41xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .goBoldly {
+    font-size: var(--font-size-19xl);
+  }
+  .loveInspiringTravel {
+    font-size: var(--font-size-lgi);
+    line-height: 29px;
+  }
+  .aVLTree {
+    gap: var(--gap-base);
+  }
+  .articles1,
+  .inputContainer {
+    font-size: var(--subheading-size);
+    line-height: 26px;
+  }
+  .palau {
+    font-size: var(--font-size-lgi);
+    line-height: 29px;
+  }
+  .terrificReasonsTo {
+    font-size: var(--small-text-size);
+    line-height: 24px;
+  }
+  .h1 {
+    font-size: var(--subheading-size);
+    line-height: 26px;
+  }
+  .patagonia {
+    font-size: var(--font-size-lgi);
+    line-height: 29px;
+  }
+  .h11 {
+    font-size: var(--subheading-size);
+    line-height: 26px;
+  }
+  .sydney {
+    font-size: var(--font-size-lgi);
+    line-height: 29px;
+  }
+  .jonahsRestaurant {
+    font-size: var(--small-text-size);
+    line-height: 24px;
+  }
+  .h12 {
+    font-size: var(--subheading-size);
+    line-height: 26px;
+  }
+  .india {
+    font-size: var(--font-size-lgi);
+    line-height: 29px;
+  }
+  .discoverPatagoniaWith,
+  .theVtGuide {
+    font-size: var(--small-text-size);
+    line-height: 24px;
+  }
+  .landingPage {
+    gap: var(--gap-11xl);
+  }
+}

@@ -1,0 +1,184 @@
+.monthlyPlan {
+  position: relative;
+  font-size: var(--small-text-size);
+  line-height: 150%;
+  font-weight: 500;
+  font-family: var(--small-text);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  min-width: 100px;
+}
+.ruleSet {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-5xs) var(--padding-base);
+  background-color: var(--color-gainsboro-200);
+  border-radius: var(--br-5xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+.ruleSet:hover {
+  background-color: var(--color-lightgray);
+}
+.errorHandler,
+.perMonth {
+  position: relative;
+  display: inline-block;
+}
+.errorHandler {
+  line-height: 110%;
+  font-weight: 600;
+  min-width: 52px;
+  white-space: nowrap;
+}
+.perMonth {
+  font-size: var(--small-text-size);
+  line-height: 150%;
+  font-weight: 500;
+  min-width: 79px;
+}
+.price {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.articles1 {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-8xl);
+}
+.articles {
+  align-self: stretch;
+  position: relative;
+  line-height: 150%;
+  font-weight: 500;
+}
+.destinations1 {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-8xl);
+}
+.destinations {
+  align-self: stretch;
+  position: relative;
+  line-height: 150%;
+  font-weight: 500;
+}
+.hotels1 {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-8xl);
+}
+.hotels {
+  align-self: stretch;
+  position: relative;
+  line-height: 150%;
+  font-weight: 500;
+}
+.cruises1 {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-8xl);
+}
+.cruises {
+  align-self: stretch;
+  position: relative;
+  line-height: 150%;
+  font-weight: 500;
+}
+.featureList {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  gap: var(--gap-xs);
+  font-size: var(--body-text-size);
+  color: var(--color-gray);
+}
+.select {
+  position: relative;
+  line-height: 150%;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 49px;
+}
+.button {
+  align-self: stretch;
+  box-shadow: var(--button-shadow);
+  border-radius: var(--br-5xs);
+  background-color: var(--color-black);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-sm) var(--padding-xl);
+  font-size: var(--small-text-size);
+  color: var(--color-rosybrown);
+}
+.pricing {
+  flex: 1;
+  box-shadow: 0 4px 6px -4px rgba(0, 0, 0, 0.1), 0 0 15px rgba(0, 0, 0, 0.1);
+  border-radius: var(--br-xs);
+  background-color: var(--color-rosybrown);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: var(--spacing-m);
+  box-sizing: border-box;
+  gap: var(--spacing-sm);
+  min-width: 162px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--heading-size);
+  color: var(--color-black);
+  font-family: var(--small-text);
+}
+@media screen and (max-width: 2025px) {
+  .errorHandler {
+    font-size: var(--font-size-13xl);
+    line-height: 35px;
+  }
+  .pricing {
+    padding-top: var(--spacing-m);
+    padding-bottom: var(--spacing-m);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .errorHandler {
+    font-size: var(--subheading-size);
+    line-height: 26px;
+  }
+  .articles,
+  .cruises,
+  .destinations,
+  .hotels {
+    font-size: var(--small-text-size);
+    line-height: 24px;
+  }
+  .pricing {
+    gap: var(--spacing-sm);
+    padding-left: var(--spacing-m);
+    padding-right: var(--spacing-m);
+    box-sizing: border-box;
+  }
+}
